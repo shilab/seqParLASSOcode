@@ -1,2 +1,0 @@
-all:
-	matlab -r "main"

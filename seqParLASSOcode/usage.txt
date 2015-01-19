@@ -1,0 +1,13 @@
+0. extract data.zip, then copy 9999_n38 and 9999_n38tag into this folder
+
+1. change Makefile or execute with parameters as
+    make subdictories TASKMIN=1 TASKMAX=385 ROUNDMAX=5
+   this will generate tasks from $(TASKMIN) to $(TASKMAX), each task
+   will have 5 rounds for multi-round method
+
+2. execute
+    make start
+   this will start all computation, waiting till all done, it will
+   take some time to finish.
+
+   after that use readme.pdf for further analysis.
